@@ -1,1 +1,1 @@
-https://dagmarakida.github.io/goit-markup-hw-01/
+https://dagmarakida.github.io/goit-markup-hw-02/

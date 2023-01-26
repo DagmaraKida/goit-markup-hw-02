@@ -1,3 +1,41 @@
+
+:root{
+    --blue: #2196f3;
+  }
+:root{
+    --black: #212121;
+  }
+:root{
+    --grey: #757575;
+  }
+:root{
+    --white: #FFFFFF;
+  }
+:root{
+    --grey2: #2F303A;
+
+/* general rules */
+
 body {
-  font-family: "Roboto", sans-serif;
+    background-color: var(--white);
+    color: var(--black);    
+    font-family: "Roboto", sans-serif;
+    font weight: 500;
 }
+
+/* elements */
+p {
+
+}
+
+h3 {
+
+}
+
+a {
+
+}
+
+button: (
+
+)

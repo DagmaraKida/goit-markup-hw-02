@@ -13,77 +13,72 @@
     />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
+
   <body>
-    <header>
+    <header class="header">
       <!-- LOGO -->
-      <div class="logo">
-        <a href="index.html"><span class="text-blue">Web</span>Studio</a>
-      </div>
+      <a class="brand-link" href="index.html"><span class="text-web">Web</span>Studio</a>
       <!-- NAV -->
-      <div class="nav">
-        <nav>
-          <ul>
-            <li><a href="./index.html">Agencja</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- CONTACT -->
-      <div class="contact">
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <nav class="nav">
+        <ul class="nav_links">
+          <li><a href="./index.html" class="link">Agencja</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="#" class="link">Kontakt</a></li>
         </ul>
-      </div>
+      </nav>
+      <!-- CONTACT -->
+      <ul class="contact_links">
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
+      </ul>
     </header>
 
     <main>
       <!-- HERO -->
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="hero">
+        <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="hero_button">Zamów usługę</button>
       </section>
 
       <!-- NASZE ATUTY -->
-      <section>
-        <ul>
-          <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+      <section class="assets">
+        <ul class="text">
+          <li class="text_box">
+            <h5 class="h5">LOREM IPSUM</h5>
+            <p class="typo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="text_box">
+            <h5 class="h5">LOREM IPSUM</h5>
+            <p class="typo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="text_box">
+            <h5 class="h5">LOREM IPSUM</h5>
+            <p class="typo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+          <li class="text_box">
+            <h5 class="h5">LOREM IPSUM</h5>
+            <p class="typo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
       </section>
 
       <!-- CZYM SIĘ ZAJMUJEMY -->
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
+      <section class="our-work">
+        <h2 class="h2">Czym się zajmujemy</h2>
+        <ul class="work">
+          <li class="work_photo">
             <img
               src="images/work/img1.jpg"
               alt="Programista pisze kod na komputerze"
@@ -91,7 +86,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work_photo">
             <img
               src="images/work/img2.jpg"
               alt="Projektant dostosowuje stronę do urządzeń mobilnych"
@@ -99,7 +94,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work_photo">
             <img
               src="images/work/img3.jpg"
               alt="Projektant wybiera kolor z palety"
@@ -111,72 +106,63 @@
       </section>
 
       <!-- NASZ ZESPÓŁ -->
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
-            <img
+      <section class="our-team">
+        <h2 class="h2">Nasz zespół</h2>
+        <ul class="team">
+          <li class="team_box">
+            <img class="team_photo"
               src="images/team/employee1.jpg"
               alt="Zdjęcie John Doe Product Designer"
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Product Designer</p>
+            <h4 class="h4">John Doe</h4>
+            <p class="description">Product Designer</p>
           </li>
-          <li>
-            <img
+          <li class="team_box">
+            <img class="team_photo"
               src="images/team/employee2.jpg"
               alt="Zdjęcie John Doe Fronted Developer"
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Frontend Developer</p>
+            <h4 class="h4">John Doe</h4>
+            <p class="description">Frontend Developer</p>
           </li>
-          <li>
-            <img
+          <li class="team_box">
+            <img class="team_photo"
               src="images/team/employee3.jpg"
               alt="Zdjęcie John Doe Marketing"
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>Marketing</p>
+            <h4 class="h4">John Doe</h4>
+            <p class="description">Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="team_box">
+            <img class="team_photo"
               src="images/team/employee4.jpg"
               alt="Zdjęcie John Doe UI Designer"
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            <p>UI Designer</p>
+            <h4 class="h4">John Doe</h4>
+            <p class="description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- LOGO -->
-      <div class="logo">
-        <a href="index.html"><span class="text-blue">Web</span>Studio</a>
-      </div>
+      <a class="brand-link" href="index.html"><span class="text-web">Web</span>Studio</a>
       <!-- ADDRESS -->
-      <div class="address">
-        <address>
-          <ul>
-            <li>
-              <a href="https://goo.gl/maps/1uCLYBcG9Ry3D8Pi7" target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <address class="address">
+          <ul class="address_links">
+            <li><a href="https://goo.gl/maps/1uCLYBcG9Ry3D8Pi7" target="_blank" class="link">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+            <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+            <li><a href="tel:+48111111111" class="link">+48 111 111 111</a></li>
           </ul>
-        </address>
-      </div>
     </footer>
   </body>
 </html>

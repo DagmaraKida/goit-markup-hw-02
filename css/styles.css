@@ -1,41 +1,64 @@
 
 :root{
-    --blue: #2196f3;
-  }
-:root{
     --black: #212121;
-  }
-:root{
     --grey: #757575;
-  }
-:root{
+    --dark-grey: #2F303A;
+    --blue: #2196f3;
     --white: #FFFFFF;
-  }
-:root{
-    --grey2: #2F303A;
+}
 
-/* general rules */
-
+/* body */
 body {
     background-color: var(--white);
     color: var(--black);    
     font-family: "Roboto", sans-serif;
     font weight: 500;
 }
+/* body end */
 
-/* elements */
-p {
+/* header*/
+.brand-link {
+    color: var(--black);
+    font-family: "Relaway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+}
+/* header end */
 
+/*main*/
+.button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 1px var(--blue);
+    cursor: pointer;
+    }
+
+/*main end*/
+
+/*footer*/
+
+/*footer end*/
+.text-blue {
+    color: var(--blue);
 }
 
-h3 {
-
+.link {
+    text-decoration: none;
+    color: var(--black);
 }
 
-a {
-
+.link:hover {
+    color: var(--blue);
 }
 
-button: (
+.link:visited {
+    text-decoration: none;
+}
 
-)
+.contact.link {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+

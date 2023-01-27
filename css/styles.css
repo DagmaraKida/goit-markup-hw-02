@@ -103,7 +103,6 @@ a:visited {
 .typo {
   color: var(--grey);
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -112,7 +111,6 @@ a:visited {
 .job-description {
   color: var(--grey);
   font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -121,7 +119,6 @@ a:visited {
 .project-description {
   color: var(--grey);
   font-size: 16px;
-  font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;

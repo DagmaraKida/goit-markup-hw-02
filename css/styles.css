@@ -16,7 +16,7 @@ body {
 /* body end */
 
 /* header*/
-.brand-link {
+.header_logo {
   font-family: "Relaway", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -166,6 +166,23 @@ a:visited {
 /*main end*/
 
 /*footer*/
+.footer_logo {
+  font-family: "Relaway", sans-serif;
+  color: var(--white);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.text-web {
+  color: var(--blue);
+}
+.text-studio {
+  color: var(--white);
+}
 .address_links {
   color: var(--white);
   opacity: 0.6;
